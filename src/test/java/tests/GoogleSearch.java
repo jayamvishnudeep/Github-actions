@@ -15,7 +15,7 @@ public class GoogleSearch {
     public void Setup() {
 
 
-        System.setProperty("webdriver.chrome.driver", "/Users/vishnudeep.jayam/Drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/java/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 
