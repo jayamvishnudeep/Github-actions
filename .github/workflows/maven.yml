@@ -19,6 +19,6 @@ steps:
     with:
       java-version: 1.8
       architecture: x64
-  - name: Run the Maven verify phase
-    run: mvn -B package --file pom.xml
+  - name: Maven Verify
+    run: mvn -B clean verify
 
